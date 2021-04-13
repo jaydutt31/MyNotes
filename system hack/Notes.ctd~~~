@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <bookmarks list=""/>
+  <node name="System Hacking" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="1" foreground="#1e90ff" ts_creation="1613935858" ts_lastsave="1613938244">
+    <node name="Password Cracking" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1613938244" ts_lastsave="1614026318">
+      <node name="Complex Passwords" unique_id="3" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1613938262" ts_lastsave="1613938264">
+        <rich_text>complex passwords include spaces, fullstop, etc
+
+the length matters.
+
+eg www,jaydutt123.com</rich_text>
+      </node>
+      <node name="Password files" unique_id="4" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1613938325" ts_lastsave="1613938330">
+        <rich_text>windows :
+C:\Windows\System32\Config\SAM
+or HKEY/SAM
+or C:\Windows\ntds\ntds.dit
+
+
+Linux:
+
+etc\shadow
+
+
+Mac:
+/var/db/dslocal/nods/defaults/users
+&lt;user&gt;.plist=&gt;ShadowHashData Property
+
+</rich_text>
+      </node>
+    </node>
+    <node name="privsec" unique_id="5" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1614026318" ts_lastsave="1614031942">
+      <rich_text>boot up with iso image
+
+
+go in repair 
+
+open cmd
+
+then --&gt;
+
+1.regedit
+2. Load hive (from taskbar)
+2. HKEY_LOCAL_MACHINE
+3. </rich_text>
+      <rich_text scale="small">GO INTO WINDOWS DRIVE</rich_text>
+      <rich_text>, (C becomes D)
+4. go into system32, config, SOFTWARE
+5. give any name, 
+6. come into microsoft, windows NT, current version, image file execution option, 
+7. create key, "utilman.exe"
+8. create a new string, with name "debugger", and  give value "cmd.exe"
+
+
+restart, and while loging, click on the ease of acces and youll get a cmd, with admin priv.
+in admin console, do "net user user_name new_password
+or "net localgroup administrators"
+</rich_text>
+    </node>
+    <node name="clearing tracks" unique_id="6" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1614031942" ts_lastsave="1614032049">
+      <rich_text>go into regedit
+
+1. HKEY_CURRENT_USER
+2. SOFTWARE
+3. MIRCOSOFT
+4. WINDOWS
+5. CURRENT VERSION
+6. EXPLORER</rich_text>
+    </node>
+  </node>
+</cherrytree>
