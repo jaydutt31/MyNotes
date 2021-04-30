@@ -53,7 +53,12 @@ async def scraper(url):
 		return body
 
 def store_links_as_df_pickle(datas=[], name='links.pkl'):
-	df = pd.DataFrame(datas)
+	new_df = pd.DataFrame(datas)
+	og_df = pd.DataFrame([{'id': 0}])
+	if pathlib.Path(name).exists():
+		og_df = pd.read_pickle(name)
+	og_df = pd.read_pickle(name)
+	df = pd.concat([og_df, new_df])
 	df.set_index('id', drop=True, inplace=True)
 	df.to_pickle(name)
 	return df
@@ -66,7 +71,8 @@ async def run(url):
 if __name__ == "__main__":
 	set_arsenic_log_level()
 	url = 'https://www.spoonflower.com/en/shop?on=fabric'
-	results = asyncio.run(run(url))
-	df = store_links_as_df_pickle(results)
+	name = 'links.pkl'
+	results = asyncio.run(run(url), debug=False)
+	df = store_links_as_df_pickle(results, name=name)
 	print(df.head())
 	driver.quit()
