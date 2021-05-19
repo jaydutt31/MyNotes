@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <bookmarks list=""/>
+  <node name="Neural Networks" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1621411127" ts_lastsave="1621411150">
+    <node name="What Is" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1621411155" ts_lastsave="1621411454">
+      <rich_text>• An Artificial Neural network is an information processing paradigm that is inspired by the way biological nervous systems, such as the brain processes information. 
+• it is composed of a large number of highly interconnected processing elements working in parellel to solve specific problems. 
+• each neuron has a local memory and the output depends on input signals arriving at the neuron and values in neuron memory.
+
+• Learns by example.
+• eg pattern recognition and data classification
+• solves program using example mapping.
+
+diffrent names = 
+   ◇ Artificial neural network
+   ◇ connectionists Network
+   ◇ parellel distributed processing systems
+
+
+
+
+</rich_text>
+    </node>
+    <node name="Advantages" unique_id="3" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1621411506" ts_lastsave="1621411519">
+      <rich_text>• used to extract patterns and detect trends. 
+• flexible as the processing is parellel and calculation is divided in many nodes, and individual node doesnt affect the result.
+• ability to learn and generalize, it learns by adaptation of internal parameters, and examples.
+• no linearity , the answer can be linear or non linear
+• adaptive learning
+• self organisation
+• fault tolerance</rich_text>
+    </node>
+    <node name="NN vs Conventional Computers" unique_id="4" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1621411745" ts_lastsave="1621411952">
+      <rich_text> </rich_text>
+      <rich_text justification="left"></rich_text>
+      <table char_offset="1" justification="left" col_min="80" col_max="80" col_widths="0,0,0">
+        <row>
+          <cell>1</cell>
+          <cell>processes information like a human brain does</cell>
+          <cell>uses algorithmic way</cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell>functions parellely</cell>
+          <cell>does not</cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell>uses learn by example</cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>S.no</cell>
+          <cell>Neural Network </cell>
+          <cell>Conventinal Computers</cell>
+        </row>
+      </table>
+    </node>
+  </node>
+</cherrytree>
