@@ -1,0 +1,19 @@
+Array : Contiguous Memory allocation, homogenous data. 
+
+Abstract Data types:
+    List
+    Stack
+    Queue
+    Map
+
+Abstract :Conceptual Data strcutures, concept remains same, but implementation differs.
+
+1. List: collection of data on which operations are performed upon, eg deletion, insertion.
+        In java, ArrayList, LinkedList
+
+2. Queue: FIFO
+
+3. Stack: opposite of queue, LIFO
+
+4. Map: every object has their own name, i.e key. 
+        In Java, HashMap. 

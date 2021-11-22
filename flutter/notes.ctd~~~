@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <bookmarks list=""/>
+  <node name="App Development" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1623407668" ts_lastsave="1623407675">
+    <node name="Flutter" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1623407675" ts_lastsave="1623407677">
+      <rich_text>Fultter is a UI toolkit for bulding fast, beautiful, natively compiled applications for mobile, web, and desktop with one programming language and single codebase. it is free and open source. initially it was developed from google and now manages by an ECMA standard. flutter app use dart programming language.
+
+
+</rich_text>
+      <node name="Flutter vs others" unique_id="3" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1623407772" ts_lastsave="1623407960">
+        <rich_text>Flutter is diffrent from other frameworks because it neither uses WebView nor the OEM widges that shipped with the device. instead, it uses its own high performance rendering engine to draw widgets. it also implements most of its system such as animation, gesture, and widges in dart programming languages that allows developers to read, change, replace, or remove things esaily. it gives excellent control to the developers over the system.</rich_text>
+      </node>
+      <node name="Features" unique_id="4" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1623407960" ts_lastsave="1623408015">
+        <rich_text>• Open source
+• cross platoform
+• hot reload
+• widgets
+• minimal code
+• accesible native features and SDKs</rich_text>
+      </node>
+      <node name="Advantages vs disadvantages" unique_id="5" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1623408015" ts_lastsave="1623408072">
+        <rich_text>Advantages :
+	It makes the app development process extremely fast because of the hot-reload feature.
+	
+	flutter reduces the time and effort of testing
+	
+	it provides the smoother and seamless scrolling experiance of using the app without much hangs or cuts, which makes running application faster comapred to other frameworks</rich_text>
+      </node>
+    </node>
+  </node>
+</cherrytree>

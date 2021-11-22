@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <bookmarks list=""/>
+  <node name="SpringBoot" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1632126303" ts_lastsave="1632126310">
+    <node name="Introduction" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1632126310" ts_lastsave="1632126823">
+      <node name="Spring Framework" unique_id="3" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1632126339" ts_lastsave="1632126368">
+        <rich_text>Spring framework provides you with features such as : -
+	• Pojo
+	• Dependency Injection
+	• MVC
+	• REST
+	• Security
+	• Batch
+	• Data
+	• AOP
+
+can be  integrated with hiberate and with struts.
+
+
+ 
+</rich_text>
+      </node>
+      <node name="Spring Boot" unique_id="4" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1632126535" ts_lastsave="1632126536">
+        <rich_text>Not a replacement for spring framework
+
+gives dependency and configuration. gives a production ready application.
+
+Provides you with embedded server.
+
+1. Spring boot starter web
+2. Spring boot starter jbdc
+3. spring boot auto configuration
+
+does not generate any xml files for you, 
+
+
+
+
+</rich_text>
+      </node>
+    </node>
+    <node name="Dependency Injection" unique_id="5" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1632126823" ts_lastsave="1632127374">
+      <rich_text>What  &amp; Why?
+
+	* lose coupling : two objects have minimal dependency on each others
+	* tight coupling : two objects have maximal dependency on each others
+
+	injecting external objects into your project. 
+	
+	to implement, 
+	
+	syntax = 
+
+	@component
+	class some implements some_other{
+		........
+		........
+	}
+	
+	
+	class Laptop
+	{
+		@Autowired
+		some_other obj;
+		
+	}
+	
+	* to avoid tight coupling 
+	* for help in testing each component individually  by creating mock object without affecting database. </rich_text>
+    </node>
+  </node>
+</cherrytree>
